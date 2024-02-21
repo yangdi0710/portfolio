@@ -9,7 +9,7 @@ function Header() {
               <ul className="flex gap-8">
                 <li>
                   <a
-                    href="/"
+                    href="#project"
                     className="text-gray-400 cursor-pointer hover:text-white"
                   >
                     Projects
