@@ -21,13 +21,13 @@ function TechnologyItem() {
     <>
       {tech.map((item, index) => (
         <div key={index}>
-          <h2 className="text-4xl font-bold mt-8">{item.name}</h2>
+          <h2 className="text-3xl font-bold mt-8">{item.name}</h2>
           <div className="flex items-baseline">
             <span
-              className="block h-2 bg-gradient-to-r from-blue-400 to-sky-300 rounded-lg mt-2"
+              className="block h-2 bg-gradient-to-r from-blue-400 to-sky-300 rounded-lg"
               style={{ width: item.rate + "%" }}
             ></span>
-            <p className="ml-3">{item.rate}%</p>
+            <p className="ml-3 text-2xl">{item.rate}%</p>
           </div>
         </div>
       ))}

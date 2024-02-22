@@ -17,7 +17,7 @@ function Header() {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="#technologies"
                     className="text-gray-400 cursor-pointer hover:text-white"
                   >
                     Technologies
@@ -25,7 +25,7 @@ function Header() {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="#aboutme"
                     className="text-gray-400 cursor-pointer hover:text-white"
                   >
                     About Me

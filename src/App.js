@@ -1,4 +1,5 @@
 import "./App.css";
+import AboutMe from "./components/AboutMe";
 import AdditionalSkills from "./components/AdditionalSkills";
 import Header from "./components/Header";
 import Introduce from "./components/Introduce";
@@ -13,6 +14,7 @@ function App() {
       <Project />
       <Technologies />
       <AdditionalSkills />
+      <AboutMe />
     </div>
   );
 }
