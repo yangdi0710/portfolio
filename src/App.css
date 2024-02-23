@@ -26,7 +26,9 @@ body {
 
 /* Introduce */
 .introduce__image {
-  width: 80%;
+  width: 100%;
+  min-width: 246px;
+  max-width: 220px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -34,6 +36,20 @@ body {
 .gradient-text {
   -webkit-background-clip: text;
   @apply bg-gradient-to-t from-blue-500 to-cyan-300 text-transparent;
+  overflow: hidden;
+  text-wrap: nowrap;
+  border-right: 2px solid #fff;
+  animation: typing-text infinite 3s steps(40), blink linear 0.1s infinite;
+}
+
+@keyframes typing-text {
+  from {
+    width: 0%;
+    opacity: 0.3;
+  }
+  to {
+    width: 350px;
+  }
 }
 
 /* Project Item */
