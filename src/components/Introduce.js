@@ -3,8 +3,8 @@ import PortfileBg from "../assets/img/Ellipse 15.png";
 
 function Introduce() {
   return (
-    <div className="mt-44 flex justify-between flex-col sm:flex-row md:flex-row">
-      <div className="pr-32 mb-12">
+    <div className="mt-44 grid grid-cols-2 gap-5 min-h-[300px]">
+      <div className="max-w-[90%]">
         <h2 className="font-bold text-7xl">Hello, I'm Duy</h2>
         <h1 className="gradient-text font-bold text-5xl mt-6 mr-5 running-text">
           Frontend Developer
@@ -15,13 +15,13 @@ function Introduce() {
           deserunt officia dolore nostrud ut veniam ipsum.
         </p>
       </div>
-      <div className=" flex justify-center m-auto flex-1 p-14 -mt-16 relative">
+      <div className=" relative">
+        <img className="introduce__image absolute z-10" src={Portfile} alt="" />
         <img
-          className="introduce__image relative top-5 z-10"
-          src={Portfile}
+          className="port__bg absolute top-24 left-8 z-0"
+          src={PortfileBg}
           alt=""
         />
-        <img className="absolute top-24 left-12 z-0" src={PortfileBg} alt="" />
       </div>
     </div>
   );

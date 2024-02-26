@@ -1,6 +1,7 @@
 import "./App.css";
 import AboutMe from "./components/AboutMe";
 import AdditionalSkills from "./components/AdditionalSkills";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Introduce from "./components/Introduce";
 import Project from "./components/Project";
@@ -15,6 +16,7 @@ function App() {
       <Technologies />
       <AdditionalSkills />
       <AboutMe />
+      <Footer />
     </div>
   );
 }

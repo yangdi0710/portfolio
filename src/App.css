@@ -26,11 +26,14 @@ body {
 
 /* Introduce */
 .introduce__image {
-  width: 100%;
   min-width: 246px;
-  max-width: 220px;
+  max-width: 250px;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.port__bg {
+  min-width: 300px;
 }
 
 .gradient-text {
