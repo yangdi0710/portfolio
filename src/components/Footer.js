@@ -4,7 +4,7 @@ import LinkedIn from "../assets/img/Linkedin.svg";
 
 function Footer() {
   return (
-    <div className="mt-28 mb-14 mx-32 flex justify-between text-gray-400 text-2xl">
+    <div className="mt-28 mb-14 mx-32 flex justify-around items-center text-gray-400 text-2xl">
       <div>
         <p>Copyright @ 2024</p>
       </div>

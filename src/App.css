@@ -26,8 +26,8 @@ body {
 
 /* Introduce */
 .introduce__image {
-  min-width: 246px;
-  max-width: 250px;
+  width: 240px;
+  height: 240px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -53,10 +53,4 @@ body {
   to {
     width: 350px;
   }
-}
-
-/* Project Item */
-.project__item--width {
-  min-width: 400px;
-  width: 48%;
 }
